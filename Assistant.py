@@ -7,9 +7,9 @@ import os
 
 
 
-engine = pyttsx3.init('sapi5') # we will use this to take voices. Window 1 API deti hai jis se hum voices ly sckty han.. inbuilt voice ko use kren gy
-voices = engine.getProperty('voices') # windows mein by default 2 voices hoti.. hum aur bhe download kr sckty han..
-engine.setProperty('voices',voices[1].id) #female ke voice hai 1 index pe.. 0 pe male ke hai
+engine = pyttsx3.init('sapi5') 
+voices = engine.getProperty('voices') 
+engine.setProperty('voices',voices[1].id) 
 
 
 def speak(audio):
